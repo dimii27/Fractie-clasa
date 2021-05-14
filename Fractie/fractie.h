@@ -16,6 +16,7 @@ public:
     void SetNumitor(int);
     void Simplifica();
     void Afiseaza();
-    void afisare();
+///    void afisare();
     Fractie(int x=0,int y=1);
+    Fractie(Fractie &);
 };

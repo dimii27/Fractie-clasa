@@ -1,5 +1,5 @@
 #include "fractie.h"
-
+#include <iostream>
 void Fractie::SetNumarator(int x)
 {
     a=x;
@@ -22,10 +22,15 @@ void Fractie::Simplifica()
 }
 void Fractie::Afiseaza()
 {
-    cout<<a<<"/"<<b<<endl;
+    std::cout<<a<<"/"<<b<<"\n";
 }
 Fractie::Fractie(int x,int y)
 {
     a=x;
     b=y;
+}
+Fractie::Fractie(Fractie &f)
+{
+    a=f.a;
+    b=f.b;
 }

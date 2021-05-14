@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1620982036 source:c:\users\elev\downloads\fractie-clasa-main\fractie\fractie.cpp
+	"fractie.h"
+	<iostream>
+
+1620982371 c:\users\elev\downloads\fractie-clasa-main\fractie\fractie.h
+
+1620982112 source:c:\users\elev\downloads\fractie-clasa-main\fractie\main.cpp
+	<bits/stdc++.h>
+	"fractie.h"
+
