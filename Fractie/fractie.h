@@ -17,6 +17,7 @@ public:
     void Simplifica();
     void Afiseaza();
 ///    void afisare();
-    Fractie(int x=0,int y=1);
-    Fractie(Fractie &);
+    Fractie(int x=0,int y=1);//constr
+    Fractie(Fractie &);//const de cap.
+    ~Fractie();//destructorul
 };
