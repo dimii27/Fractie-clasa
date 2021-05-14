@@ -11,11 +11,21 @@ void Fractie::SetNumitor(int y)
 void Fractie::Simplifica()
 {
     int x=a,y=b,r;
-    while(y){r=x%y;x=y;y=r;}
+    while(y)
+    {
+        r=x%y;
+        x=y;
+        y=r;
+    }
     a=a/x;
     b=b/x;
 }
 void Fractie::Afiseaza()
 {
     cout<<a<<"/"<<b<<endl;
+}
+Fractie::Fractie(int x,int y)
+{
+    a=x;
+    b=y;
 }
